@@ -1,9 +1,60 @@
-let starter = [
+let quiz = [
   {
-    dishName: "Samosa",
-    dishAmount: "(2 pieces)",
-    dishDiscription: "Pastry filled with a mixture of potatoes, green peas, cashews, and spices.",
-    dishprice: 4.99,
-    amount: 0,
+    question: "Welches ist das größte Land der Welt nach Fläche?",
+    option_1: "Kanada",
+    option_2: "Russland",
+    option_3: "China",
+    option_4: "USA",
+    answer: 2,
+  },
+  {
+    question: "Welcher Planet ist der groesste in unserem Sonnensystem?",
+    option_1: "Venus",
+    option_2: "Jupiter",
+    option_3: "Saturn",
+    option_4: "Mars",
+    answer: 2,
+  },
+  {
+    question: "Wann wurde die Berliner Mauer gebaut?",
+    option_1: "1949",
+    option_2: "1953",
+    option_3: "1961",
+    option_4: "1989",
+    answer: 3,
+  },
+  {
+    question: "Welcher Fluss fliesst durch Paris?",
+    option_1: "Donau",
+    option_2: "Seine",
+    option_3: "Elbe",
+    option_4: "Themse",
+    answer: 2,
+  },
+  {
+    question: "Wie viele Beine hat ein Insekt?",
+    option_1: "4",
+    option_2: "6",
+    option_3: "8",
+    option_4: "10",
+    answer: 2,
+  },
+  {
+    question: "In welchem Land fanden die Olymischen Spiele 2008 statt?",
+    option_1: "Grichenland",
+    option_2: "USA",
+    option_3: "China",
+    option_4: "Deutschland",
+    answer: 3,
+  },
+  {
+    question: "Wer schrieb den Roman 1984?",
+    option_1: "George Owell",
+    option_2: "Aldous Huxley",
+    option_3: "Franz Kafka",
+    option_4: "J. R. R. Tolkin",
+    answer: 1,
   },
 ];
+
+let score = [];
